@@ -11,7 +11,6 @@
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
-      
     },
     "description": "A grayscale one page HTML theme for Bootstrap.",
     "keywords": [

@@ -50,17 +50,23 @@ html(lang='en')
                         // a.btn.btn-primary(href='#about') Get Started
 
                 // About
-        section#about.about-section.text-center
+        // Projects
+        section#projects.projects-section.bg-light
             .container.px-4.px-lg-5
-                .row.gx-4.gx-lg-5.justify-content-center
-                    .col-lg-8
-                        h2.text-white.mb-4 Built with Bootstrap 5
-                        p.text-white-50
-                            | Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on 
-                            a(href='https://startbootstrap.com/theme/grayscale/') the preview page.
-                            | The theme is open source, and you can use it for any purpose, personal or commercial.
-                img.img-fluid(src='assets/img/ipad.png', alt='...')
-
+            
+                // Featured Project Row
+                .row.gx-0.mb-4.mb-lg-5.align-items-center
+                    h2.text-center.pb-5 test
+                    .col-xl-4.col-lg-5
+                        .featured-text.text-left.text-lg-left
+                            h4 Shoreline
+                            p.text-black-50.mb-0
+                                | Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!
+                
+                    .col-xl-8.col-lg-7
+                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/bg-masthead.jpg', alt='...')
+                    
+        
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
             .container.px-4.px-lg-5
