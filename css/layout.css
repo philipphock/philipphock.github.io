@@ -522,7 +522,7 @@ ul#nav li.current a { color: #F06000; }
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
-	background: #fff;
+	background: rgb(39, 39, 39);
 	position: relative;
 	margin: 0 auto;
 }
@@ -530,7 +530,7 @@ ul#nav li.current a { color: #F06000; }
 .popup-modal .description-box h4 {
    font: 15px/24px 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
-   color: #111;
+   color: rgb(231, 231, 231);
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
