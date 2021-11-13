@@ -319,10 +319,12 @@ ul#nav li.current a { color: #F06000; }
 	float: left;
 	padding: 0;
 	text-align: left;
+
 }
 .bars .skills {
   	margin-top: 36px;
    list-style: none;
+
 }
 .bars li {
    position: relative;
@@ -333,7 +335,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #cfcfcf;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -347,7 +349,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #0d4a6d;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -417,7 +419,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #2e2e2e;
    padding-top: 90px;
    padding-bottom: 60px;
 }
