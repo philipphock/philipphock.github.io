@@ -1012,3 +1012,44 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+.ico{
+   width: 30px;
+   height: 30px;
+   background-size: 30px !important;
+   display: inline-block;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+.github{
+   background: #ffffff00 url(../images/icons/github.png) no-repeat center center;   
+}
+
+.github:hover{
+   background: #ffffff00 url(../images/icons/github_h.png) no-repeat center center;   
+}
+.scholar{
+   background: #ffffff00 url(../images/icons/scholar.png) no-repeat center center;   
+}
+
+.scholar:hover{
+   background: #ffffff00 url(../images/icons/scholar_h.png) no-repeat center center;   
+}
+
+.researchgate{
+   background: #ffffff00 url(../images/icons/researchgate.png) no-repeat center center;   
+}
+
+.researchgate:hover{
+   background: #ffffff00 url(../images/icons/researchgate_h.png) no-repeat center center;   
+}
+
+.linkedin{
+   background: #ffffff00 url(../images/icons/linkedin.png) no-repeat center center;   
+}
+
+.linkedin:hover{
+   background: #ffffff00 url(../images/icons/linkedin_h.png) no-repeat center center;   
+}
