@@ -329,8 +329,7 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
+  	
   	border-radius: 3px;
 }
 .bars li em {
@@ -341,19 +340,46 @@ ul#nav li.current a { color: #F06000; }
 	font-weight: normal;
    position: relative;
 	top: -36px;
+
+
 }
-.bar-expand {
+.bar-expand-bg{
+   width: 100%;
+   z-index: 0;
+   background-color: #ccc;
+}
+.bar-expand{
+   background: #0d4a6d;
+   z-index: 10;
+
+}
+.bar-expand, .bar-expand-bg{
    position: absolute;
    left: 0;
    top: 0;
+   border-radius: 15px;
 
    margin: 0;
    padding-right: 24px;
-  	background: #0d4a6d;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
-   border-radius: 3px 0 0 3px;
+   border-radius: 5px;
+}
+
+details, summary{
+   cursor:pointer;
+   list-style: none;
+   background-image:none;
+   -webkit-appearance:none;
+}
+details p{
+   margin-top: 36px;
+   background-color: #191919;
+   padding: 20px;
+   border-radius: 10px;
+   margin-bottom: -20px;
+   margin-left: 10px;
 }
 
 .ex10{
@@ -1057,3 +1083,4 @@ footer .social-links li:first-child { margin-left: 0; }
 .linkedin:hover{
    background: #ffffff00 url(../images/icons/linkedin_h.png) no-repeat center center;   
 }
+
